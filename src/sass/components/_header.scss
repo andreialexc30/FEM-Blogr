@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+.header {
+    @media (min-width: $mobile) {
+        background: url(/images/bg-pattern-intro.svg), linear-gradient(to bottom, $mobNavVLightRed, $mobNavLightRed);
+        background-size: 90em, cover;
+        background-repeat: no-repeat;
+        background-position-x: 34.5%, 100%;
+        background-position-y: 32%, 100%;
+        border-bottom-left-radius: 7em;
+        height: 80vh;
+    }
+
+    @media (min-width: $laptop) {
+        background-size: 200em, cover !important;
+        background-position-x: 20%, 50%;
+        background-position-y: 50%, 50%;
+    }
+
+    .mobile {
+        display: none;
+    }
+}

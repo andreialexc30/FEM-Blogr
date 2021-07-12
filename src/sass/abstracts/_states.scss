@@ -1,0 +1,30 @@
+@use './globals' as *;
+
+.free_btn:hover,
+.free_btn:focus,
+.desktop_signup-btn:hover,
+.desktop_signup-btn:focus {
+    background-color: $vryLightRed !important;
+    color: $white !important;
+}
+
+.learn_btn:hover,
+.learn_btn:focus {
+    background-color: $white !important;
+    color: $vryLightRed !important;
+}
+
+.link-list_item__anchor:hover,
+.link-list_item__anchor:focus {
+    font-weight: $bold;
+}
+
+.list--item_anchor:focus .spanArrow,
+.list-item_anchor:focus .mobile_spanArrow {
+    transform: rotate(-180deg);
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}

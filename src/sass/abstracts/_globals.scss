@@ -1,0 +1,38 @@
+// Primary
+$lightRed: hsl(356, 100%, 66%);
+$vryLightRed: hsl(355, 100%, 74%);
+$vryDarkBlue: hsl(208, 49%, 24%);
+
+// Neutral
+$white: hsl(0, 0%, 100%);
+$grayBlue: hsl(240, 2%, 79%);
+$darkGrayBlue: hsl(207, 13%, 34%);
+$darkBlackBlue: hsl(240, 10%, 16%);
+$boxBlack: hsla(0, 0%, 0%, 0.639);
+$dropdownBlack: hsla(0, 0%, 0%, 0.985);
+
+// Gradients
+// <!--- Bg gradient mobile intro/nav --->
+$mobNavVLightRed: hsl(13, 100%, 72%);
+$mobNavLightRed: hsl(353, 100%, 62%);
+
+// <!--- Body bg gradient --->
+$vryDarkGB: hsl(237, 17%, 21%);
+$desatBlue: hsl(237, 23%, 32%);
+
+// Font weights
+// <!--- Overpass font --->
+$light: 300;
+$bold: 600;
+
+// <!--- Ubuntu font --->
+$neutral: 400;
+$boldish: 500;
+$veryBold: 700;
+
+
+// Breakpoints
+// <!--- Mobile/Tablet --->
+$mobile: 375px;
+$tablet: 850px;
+$laptop: 1000px;
