@@ -1,0 +1,61 @@
+@media (min-width: 375px) {
+  .header {
+    background: url(bg-pattern-intro.HASH_REF_94eca3fc0ed8a8885bec853f78e528d5.svg), linear-gradient(to bottom, #ff8f70, #ff3d54);
+    background-size: 90em, cover;
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    border-bottom-left-radius: 7em;
+    height: 80vh;
+  }
+}
+.header .mobile {
+  display: none;
+}
+@media (min-width: 375px) {
+  .mobile {
+    display: initial !important;
+  }
+  .mobile_container-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .mobile_container-1 .title--logo {
+    font-size: 2.5rem;
+  }
+  .mobile_container-1 .header_mobile-nav {
+    display: none;
+  }
+  .mobile_container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  }
+  .mobile_container-2 .header_title {
+    width: 70vw;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .mobile_container-2 .header_sub-title {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+/*# sourceMappingURL=index.HASH_REF_8ad38e884cfcce307cf765f9fe61a6d4.css.map */

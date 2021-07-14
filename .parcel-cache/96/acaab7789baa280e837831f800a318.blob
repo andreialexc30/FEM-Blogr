@@ -1,0 +1,19 @@
+const dropdown = document.getElementsByClassName('dropdownTarget');
+const dropdownAnchor = document.getElementsByClassName('list--item_anchor');
+dropdownAnchor.forEach((anchor)=>{
+    anchor.addEventListener('click', ()=>{
+        for(let i = 0; i < dropdown.length; i++){
+            let dropdowns = dropdown[i];
+            dropdowns.classList.toggle('dropdownActive');
+        }
+    });
+});
+window.onclick = function(event) {
+    if (!event.target.matches('#dropdownAnchor')) {
+        let dropdowns = document.getElementsByClassName('desktop_dropdown');
+        for(let i = 0; i < dropdowns.length; i++){
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('dropdownActive')) openDropdown.classList.remove('dropdownActive');
+        }
+    }
+};

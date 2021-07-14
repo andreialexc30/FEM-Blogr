@@ -1,0 +1,14 @@
+const dropdown = document.getElementById('dropdownTarget');
+const dropdownAnchor = document.getElementById('dropdownAnchor');
+dropdownAnchor.addEventListener('click', ()=>{
+    dropdown.classList.toggle('dropdownActive');
+});
+window.onclick = function(event) {
+    if (!event.target.matches('#dropdownAnchor')) {
+        let dropdowns = document.getElementsByClassName('desktop_dropdown');
+        for(let i = 0; i < dropdowns.length; i++){
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('dropdownActive')) openDropdown.classList.remove('dropdownActive');
+        }
+    }
+};

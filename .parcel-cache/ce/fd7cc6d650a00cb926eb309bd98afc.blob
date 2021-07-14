@@ -1,0 +1,5 @@
+const dropdown = document.getElementById('dropdownTest');
+const dropdownAnchor = document.getElementById('dropdownAnchor');
+dropdownAnchor.addEventListener('click', ()=>{
+    dropdown.classList.add(' dropdownActive');
+});

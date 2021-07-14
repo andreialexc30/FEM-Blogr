@@ -1,0 +1,320 @@
+.free_btn:hover,
+.free_btn:focus {
+  background-color: #ff7a85 !important;
+  color: white !important;
+}
+
+.learn_btn:hover,
+.learn_btn:focus {
+  background-color: white !important;
+  color: #ff7a85 !important;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+@media (min-width: 375px) {
+  .header {
+    background: url(bg-pattern-intro.HASH_REF_94eca3fc0ed8a8885bec853f78e528d5.svg), linear-gradient(to bottom, #ff8f70, #ff3d54);
+    background-size: 90em, cover;
+    background-repeat: no-repeat;
+    background-position-x: 34.5%, 100%;
+    background-position-y: 32%, 100%;
+    border-bottom-left-radius: 7em;
+    height: 80vh;
+  }
+}
+
+.header .mobile {
+  display: none;
+}
+
+@media (min-width: 375px) {
+  .design_title,
+.design_sub-title {
+    color: #1f3f5b;
+  }
+
+  .design_information-text {
+    color: #4b5862;
+  }
+
+  .mobile {
+    display: initial !important;
+  }
+  .mobile_container-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    padding: 2.5em 0;
+    margin: 0 auto;
+  }
+  .mobile_container-1 .mobile_nav-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile_container-1 .header_mobile-nav {
+    display: none;
+  }
+  .mobile_container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 65%;
+    padding: 2em;
+  }
+  .mobile_container-2 .header_title {
+    width: 85vw;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 600;
+    font-family: "Overpass", "Ubuntu", sans-serif;
+  }
+  .mobile_container-2 .header_sub-title {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0;
+    padding-bottom: 2em;
+    color: white;
+    font-weight: 300;
+    font-family: "Overpass", "Ubuntu", sans-serif;
+  }
+  .mobile_container-2 .mobile_buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .mobile_container-2 .mobile_buttons-container .cta_button {
+    background: none;
+    border-radius: 2em;
+    border: none;
+    width: 8em;
+    height: 2.75em;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .mobile_container-2 .mobile_buttons-container .free_btn {
+    background-color: white;
+    color: #ff525d;
+  }
+  .mobile_container-2 .mobile_buttons-container .learn_btn {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    font-family: "Overpass", "Ubuntu", sans-serif;
+  }
+  .design_title {
+    font-size: 1.75rem;
+  }
+  .design_img-container {
+    margin: 1.25em 0;
+  }
+  .design_img-container .design_img {
+    width: 100vw;
+    max-width: 600px;
+  }
+  .design_information {
+    padding: 0 3.6em;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .infrastructure {
+    margin-top: 18em;
+    position: relative;
+  }
+  .infrastructure .phonesIllu {
+    width: 100vw;
+    max-width: 500px;
+    position: absolute;
+    z-index: 2;
+    top: -27vh;
+  }
+  .infrastructure_stateOf {
+    background: linear-gradient(to bottom, #3f4164, #2c2d3f);
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    border-bottom-left-radius: 5em;
+    border-top-right-radius: 5em;
+  }
+  .infrastructure_stateOf .infrastructure_img-container .circlesPattern {
+    width: 160vw;
+    max-width: 800px;
+    position: absolute;
+    top: -15em;
+    left: -7em;
+  }
+  .infrastructure_stateOf .infrastructure_stateOf-container {
+    position: relative;
+    z-index: 2;
+    top: 50vw;
+    padding: 0 2em;
+    text-align: center;
+    color: white;
+    font-family: "Overpass", "Ubuntu", sans-serif;
+  }
+  .infrastructure_stateOf .infrastructure_stateOf-container .stateOf_title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  .infrastructure_stateOf .infrastructure_stateOf-container .stateOf_text {
+    letter-spacing: 1px;
+    padding: 0 1.25em;
+  }
+  .infrastructure .stateOf_expanded {
+    margin-top: 5em;
+  }
+  .infrastructure .stateOf_expanded .expanded_img-container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .infrastructure .stateOf_expanded .expanded_img-container .stateOf_expanded-img {
+    width: 100vw;
+    max-width: 600px;
+  }
+
+  .footer {
+    background-color: #25252d;
+    border-top-right-radius: 5em;
+    margin-top: 6em;
+  }
+  .footer .blogrLogo_footer {
+    margin-top: 3em;
+    height: 100%;
+  }
+  .footer .footer_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3.5em 0;
+  }
+  .footer .footer_container .footerGroup {
+    text-align: center;
+  }
+  .footer .footer_container .footerGroup_title {
+    color: white;
+    font-size: 1.15rem;
+    margin: 1.5em 0;
+  }
+  .footer .footer_container .footerGroup_list-item--anchor {
+    color: #c8c8cb;
+  }
+  .footer .footer_container .footerGroup_list {
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width: 850px) {
+  .infrastructure_stateOf-container {
+    top: 40vw !important;
+  }
+
+  .footer_container {
+    flex-direction: row !important;
+    align-items: unset !important;
+  }
+
+  .blogrLogo_footer {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .design_container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .design_container .design_img {
+    width: 50vw;
+  }
+  .design_container .design_information {
+    text-align: left;
+  }
+
+  .infrastructure {
+    margin-top: 9em;
+  }
+
+  .infrastructure_stateOf-container {
+    position: unset !important;
+    width: 50%;
+    text-align: left !important;
+    align-self: center;
+  }
+  .infrastructure_stateOf-container .stateOf_title {
+    text-align: center;
+  }
+
+  .infrastructure_stateOf {
+    height: 30vw !important;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .circlesPattern {
+    max-width: 850px !important;
+    top: -25em !important;
+    left: -11em !important;
+  }
+
+  .phonesIllu {
+    max-width: 450px !important;
+    top: -7vh !important;
+    left: 16vh !important;
+  }
+
+  .stateOf_expanded {
+    display: flex;
+  }
+  .stateOf_expanded .design_information {
+    text-align: left;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.HASH_REF_8ad38e884cfcce307cf765f9fe61a6d4.css.map */

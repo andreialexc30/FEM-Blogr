@@ -1,0 +1,19 @@
+const dropdownP = document.getElementById('dropdownProduct');
+const dropdownCm = document.getElementById('dropdownCompany');
+const dropdownCn = document.getElementById('dropdownContact');
+const dropdownProduct = document.getElementById('dropdownAnchorProduct');
+const dropdownCompany = document.getElementById('dropdownAnchorCompany');
+const dropdownContact = document.getElementById('dropdownAnchorConnect');
+dropdownProduct.addEventListener('click', ()=>{
+    dropdownP.classList.toggle('dropdownActive');
+    console.log('ceplm');
+});
+window.onclick = function(event) {
+    if (!event.target.matches('#dropdownAnchor')) {
+        let dropdowns = document.getElementsByClassName('desktop_dropdown');
+        for(let i = 0; i < dropdowns.length; i++){
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('dropdownActive')) openDropdown.classList.remove('dropdownActive');
+        }
+    }
+};

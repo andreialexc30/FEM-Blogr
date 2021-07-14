@@ -1,0 +1,73 @@
+// Elements from desktop
+const dropdownP = document.getElementById('dropdownProduct');
+const dropdownCm = document.getElementById('dropdownCompany');
+const dropdownCn = document.getElementById('dropdownContact');
+const dropdownProduct = document.getElementById('dropdownAnchorProduct');
+const dropdownCompany = document.getElementById('dropdownAnchorCompany');
+const dropdownContact = document.getElementById('dropdownAnchorConnect');
+// Elements from mobile
+const burgerIcon = document.getElementById('burger_icon');
+const closeIcon = document.getElementById('close_icon');
+const mobileBtn = document.getElementById('mobileBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+const mobileAnchorP = document.getElementById('mobileProductAnchor');
+const mobileAnchorCm = document.getElementById('mobileCompanyAnchor');
+const mobileAnchorCn = document.getElementById('mobileContactAnchor');
+const mobileDropdownP = document.getElementById('mobileDropdownProduct');
+const mobileDropdownCm = document.getElementById('mobileDropdownCompany');
+const mobileDropdownCn = document.getElementById('mobileDropdownContact');
+// !Mobile related!
+// Mobile burger menu switch
+mobileBtn.addEventListener('click', ()=>{
+    mobileMenu.classList.toggle('mobileShow');
+    burgerIcon.classList.toggle('iconShow');
+    closeIcon.classList.toggle('closeShow');
+});
+// dropdown function
+const mobileState = 'mobile_dropdownActive';
+function toggleDropdown(dropdownA, dropdownB, dropdownState) {
+    if (dropdownA.classList.contains(dropdownState) || dropdownB.classList.contains(dropdownState)) {
+        dropdownA.classList.remove(dropdownState);
+        dropdownB.classList.remove(dropdownState);
+    }
+}
+// Mobile toggle dropdowns
+mobileAnchorP.addEventListener('click', ()=>{
+    toggleDropdown(mobileDropdownCm, mobileDropdownCn, mobileState);
+    mobileDropdownP.classList.add(mobileState);
+});
+mobileAnchorCm.addEventListener('click', ()=>{
+    toggleDropdown(mobileDropdownP, mobileDropdownCn, mobileState);
+    mobileDropdownCm.classList.add(mobileState);
+});
+mobileAnchorCn.addEventListener('click', ()=>{
+    toggleDropdown(mobileDropdownCm, mobileDropdownP, mobileState);
+    mobileDropdownCn.classList.add(mobileState);
+});
+// !Desktop related!
+// Toggle dropdowns
+const desktopState = 'dropdownActive';
+dropdownProduct.addEventListener('click', ()=>{
+    toggleDropdown(dropdownCm, dropdownCn, desktopState);
+    dropdownP.classList.add(desktopState);
+});
+dropdownCompany.addEventListener('click', ()=>{
+    toggleDropdown(dropdownP, dropdownCn, desktopState);
+    dropdownCm.classList.add(desktopState);
+});
+dropdownContact.addEventListener('click', ()=>{
+    toggleDropdown(dropdownCm, dropdownP, desktopState);
+    dropdownCn.classList.add(desktopState);
+});
+// Close dropdown when clicking outside than on the anchor
+const mobileAnchor = '.list-item_anchor';
+const desktopAnchor = '.list--item-anchor';
+window.onclick = function(event) {
+    if (!event.target.matches('.list--item_anchor')) {
+        let dropdowns = document.getElementsByClassName('desktop_dropdown');
+        for(let i = 0; i < dropdowns.length; i++){
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('dropdownActive')) openDropdown.classList.remove('dropdownActive');
+        }
+    }
+};
