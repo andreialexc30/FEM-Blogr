@@ -1,62 +1,94 @@
-// Elements
+// Elements from desktop
 const dropdownP = document.getElementById('dropdownProduct')
 const dropdownCm = document.getElementById('dropdownCompany')
 const dropdownCn = document.getElementById('dropdownContact')
 const dropdownProduct = document.getElementById('dropdownAnchorProduct')
 const dropdownCompany = document.getElementById('dropdownAnchorCompany')
 const dropdownContact = document.getElementById('dropdownAnchorConnect')
+
+// Elements from mobile
 const burgerIcon = document.getElementById('burger_icon')
 const closeIcon = document.getElementById('close_icon')
 const mobileBtn = document.getElementById('mobileBtn')
 const mobileMenu = document.getElementById('mobileMenu')
+const mobileAnchorP = document.getElementById('mobileProductAnchor')
+const mobileAnchorCm = document.getElementById('mobileCompanyAnchor')
+const mobileAnchorCn= document.getElementById('mobileContactAnchor')
+const mobileDropdownP = document.getElementById('mobileDropdownProduct')
+const mobileDropdownCm = document.getElementById('mobileDropdownCompany')
+const mobileDropdownCn = document.getElementById('mobileDropdownContact')
 
+
+// !Mobile related!
+// Mobile burger menu switch
 mobileBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('mobileShow')
     burgerIcon.classList.toggle('iconShow')
     closeIcon.classList.toggle('closeShow')
 })
 
-// TODO fix the dropdowns toggling when one is already toggled
-
-// Toggle dropdowns
-
-dropdownProduct.addEventListener('click', () => {
-    if (dropdownCm.classList.contains('dropdownActive') || dropdownCn.classList.contains('dropdownActive')) {
-        dropdownCm.classList.remove('dropdownActive')
-        dropdownCn.classList.remove('dropdownActive')
+// dropdown function
+const mobileState = 'mobile_dropdownActive'
+function toggleDropdown(dropdownA, dropdownB, dropdownState) {
+    if (dropdownA.classList.contains(dropdownState) || dropdownB.classList.contains(dropdownState)) {
+        dropdownA.classList.remove(dropdownState)
+        dropdownB.classList.remove(dropdownState)
     }
 
-    dropdownP.classList.toggle('dropdownActive')
+}
+
+// Mobile toggle dropdowns
+mobileAnchorP.addEventListener('click', () => {
+    toggleDropdown(mobileDropdownCm, mobileDropdownCn, mobileState)
+
+    mobileDropdownP.classList.toggle(mobileState)
+})
+
+mobileAnchorCm.addEventListener('click', () => {
+    toggleDropdown(mobileDropdownP, mobileDropdownCn, mobileState)
+
+    mobileDropdownCm.classList.toggle(mobileState)
+})
+
+mobileAnchorCn.addEventListener('click', () => {
+    toggleDropdown(mobileDropdownCm, mobileDropdownP, mobileState)
+
+    mobileDropdownCn.classList.toggle(mobileState)
+})
+
+// !Desktop related!
+// Toggle dropdowns
+const desktopState = 'dropdownActive'
+
+dropdownProduct.addEventListener('click', () => {
+    toggleDropdown(dropdownCm, dropdownCn, desktopState)
+
+    dropdownP.classList.add(desktopState)
 })
 
 dropdownCompany.addEventListener('click', () => {
-    if (dropdownP.classList.contains('dropdownActie') || dropdownCn.classList.contains('dropdownActive')) {
-        dropdownP.classList.remove('dropdownActive')
-        dropdownCn.classList.remove('dropdownActive')
-    }
+    toggleDropdown(dropdownP, dropdownCn, desktopState)
 
-    dropdownCm.classList.toggle('dropdownActive')
+    dropdownCm.classList.add(desktopState)
 })
 
 dropdownContact.addEventListener('click', () => {
-    if (dropdownCm.classList.contains('dropdownActie') || dropdownP.classList.contains('dropdownActive')) {
-        dropdownP.classList.remove('dropdownActive')
-        dropdownCm.classList.remove('dropdownActive')
-    }
+    toggleDropdown(dropdownCm, dropdownP, desktopState)
 
-    dropdownCn.classList.toggle('dropdownActive')
+    dropdownCn.classList.add(desktopState)
 })
 
 // Close dropdown when clicking outside than on the anchor
-
+const mobileAnchor = '.list-item_anchor'
+const desktopAnchor = '.list--item_anchor'
 window.onclick = function(event) {
-    if (!event.target.matches('.list--item_anchor')) {
+    if (!event.target.matches(desktopAnchor)) {
         let dropdowns = document.getElementsByClassName('desktop_dropdown')
 
-        for(let i = 0; i < dropdowns.length; i++) {
+        for (let i = 0; i < dropdowns.length; i++) {
             let openDropdown = dropdowns[i]
-            if (openDropdown.classList.contains('dropdownActive')) {
-                openDropdown.classList.remove('dropdownActive')
+            if (openDropdown.classList.contains(desktopState)) {
+                openDropdown.classList.remove(desktopState)
             }
         }
     }
