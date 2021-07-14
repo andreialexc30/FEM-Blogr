@@ -19,7 +19,14 @@
     font-weight: $bold;
 }
 
-.list--item_anchor:focus .spanArrow,
+.list--item_anchor:focus .spanArrow {
+    transform: rotate(-180deg);
+}
+
+.list-item_anchor:focus {
+    color: $lightGrayBlue !important;
+}
+
 .list-item_anchor:focus .mobile_spanArrow {
     transform: rotate(-180deg);
 }

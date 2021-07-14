@@ -11,6 +11,10 @@
         height: 80vh;
     }
 
+    @media (min-height: $mobile) and (max-height: 600px) {
+        height: 100vh;
+    }
+
     @media (min-width: $laptop) {
         background-size: 200em, cover !important;
         background-position-x: 20%, 50%;

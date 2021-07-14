@@ -45,7 +45,7 @@
             justify-content: space-between;
             align-items: center;
             height: 100%;
-            padding: .75em 3em 3em 3em;
+            padding: .75em 1.5em 3em 1.5em;
         }
 
         .menu_options {
@@ -56,14 +56,52 @@
             .options_list {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 align-items: center;
+                padding: 0em 0em 1em 0em;
                 height: 100%;
                 width: 100%;
+
+                &-item {
+                    width: 100%;
+                    line-height: 5em;
+                    text-align: center;
+
+                    // JS class for toggling mobile dropdown
+                    .mobile_dropdownActive {
+                        display: flex !important;
+                    }
+
+                    .mobile_dropdown-options {
+                        background-color: $lightGrayBlue;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: .35em;
+                        display: none;
+
+                        .dropdown-options_list {
+                            min-height: 100px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            line-height: 2em;
+
+                            .options_list--item_anchor {
+                                color: $vryDarkBlue;
+                                font-size: 1.15rem;
+                            }
+                        }
+                    }
+                }
 
                 .list-item_anchor {
                     font-size: 1.35rem;
                     color: $darkGrayBlue;
+                    text-decoration: none;
+
+                    .mobile_spanArrow {
+                        transition: transform 180ms ease-in !important;
+                    }
                 }
             }
         }
@@ -77,9 +115,12 @@
             width: 100%;
 
             .mobile_btn {
+                display: grid;
+                place-items: center;
+                text-decoration: none;
                 border: none;
                 background: none;
-                font-size: 1.25rem;
+                font-size: 1.15rem;
                 font-family: 'Overpass', 'Ubuntu', sans-serif;
                 font-weight: $bold;
                 margin-top: 1em;
@@ -93,9 +134,10 @@
             .mobile-signup {
                 background: linear-gradient(to right, $mobNavVLightRed, $mobNavLightRed);
                 color: $white;
-                width: 125px;
+                width: 140px;
                 height: 50px;
-                border-radius: 1.2em;
+                padding: .85em 0;
+                border-radius: 1.4em;
             }
         }
     }
@@ -147,6 +189,11 @@
             align-items: center;
             height: 65%;
             padding: 2em;
+            margin-top: 2em;
+
+            @media (min-height: $mobile) and (max-height: 600px) {
+                margin: 0;
+            }
 
             .header_title {
                 width: 85vw;
@@ -176,6 +223,9 @@
                 width: 100%;
 
                 .cta_button {
+                    display: grid;
+                    place-items: center;
+                    text-decoration: none;
                     background: none;
                     border-radius: 2em;
                     border: none;
@@ -254,18 +304,12 @@
             border-bottom-left-radius: 5em;
             border-top-right-radius: 5em;
 
-            .infrastructure_img-container {
-                
-
-                .circlesPattern {
-                    width: 160vw;
-                    max-width: 800px;
-                    position: absolute;
-                    top: -15em;
-                    left: -7em;
-                }
-
-           
+            .circlesPattern {
+                width: 160vw;
+                max-width: 800px;
+                position: absolute;
+                top: -15em;
+                left: -7em;
             }
 
             .infrastructure_stateOf-container {
@@ -345,7 +389,16 @@
             }
         }
 
-        
+        .attribution {
+            text-align: center;
+            color: $white;
+            padding: 1em;
+            width: 100%;
+
+            &_anchor {
+                color: $lightRed;
+            }
+        }
     }
 }
 
@@ -367,7 +420,6 @@
         margin: 0 !important;
     }
 }
-
 
 // Desktop resolutions
 
@@ -438,6 +490,7 @@
     .desktop_elements {
         display: flex !important;
         justify-content: space-between !important;
+        align-items: center;
         width: 15vw;
 
         .desktop_login-btn {
@@ -448,12 +501,17 @@
             font-weight: $boldish;
             color: $white;
             cursor: pointer;
+            text-decoration: none;
         }
 
         .desktop_signup-btn {
+            display: grid;
+            place-items: center;
+            text-decoration: none;
             background: none;
             border-radius: 2em;
             width: 100px;
+            height: 40px;
             border: none;
             background-color: $white;
             color: $vryLightRed;
@@ -486,7 +544,6 @@
     .infrastructure {
         margin-top: 9em;
     }
-
 
     .infrastructure_stateOf-container {
         position: unset !important;
