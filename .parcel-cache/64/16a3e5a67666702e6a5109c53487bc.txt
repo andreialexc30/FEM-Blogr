@@ -1,4 +1,4 @@
-19149
+19150
 77D:\CODE\blogr\node_modules\postcss-minify-font-values\node_modules\color-name132704085817719528 1
 82D:\CODE\blogr\node_modules\css-modules-loader-core\node_modules\chalk\node_modules132704085770852777 1
 46D:\CODE\blogr\node_modules\lodash\fp\deburr.js121436361000000000 0
@@ -6,7 +6,7 @@
 69D:\CODE\blogr\node_modules\postcss-reduce-initial\data\toInitial.json121436361000000000 0
 50D:\CODE\blogr\node_modules\terser\bin\package.json121436361000000000 0
 73D:\CODE\blogr\node_modules\csso\node_modules\css-tree\dist\csstree.min.js121436361000000000 0
-24D:\CODE\blogr\.gitignore132705719414106275 0
+24D:\CODE\blogr\.gitignore132707329515507055 0
 85D:\CODE\blogr\node_modules\postcss-unique-selectors\node_modules\color-name\README.md131339336430000000 0
 54D:\CODE\blogr\node_modules\argparse\lib\action\help.js130992232530000000 0
 63D:\CODE\blogr\node_modules\@parcel\transformer-babel\lib\jsx.js121436361000000000 0
@@ -23,7 +23,7 @@
 54D:\CODE\blogr\node_modules\postcss-normalize-positions132704085809807747 1
 31D:\CODE\blogr\node_modules\sass132704083902817386 1
 26D:\CODE\blogr\package.json132704104299989393 0
-36D:\CODE\blogr\dist\index.4ee429df.js132707302968495092 0
+36D:\CODE\blogr\dist\index.4ee429df.js132708263854863852 0
 46D:\CODE\blogr\node_modules\css-tree\lib\common132704085680720327 1
 66D:\CODE\blogr\node_modules\core-js\features\symbol\to-primitive.js121436361000000000 0
 78D:\CODE\blogr\node_modules\postcss-unique-selectors\node_modules\chalk\license121436361000000000 0
@@ -56,7 +56,7 @@
 67D:\CODE\blogr\node_modules\caniuse-lite\data\features\object-fit.js121436361000000000 0
 75D:\CODE\blogr\node_modules\postcss-modules\node_modules\postcss\lib\root.js121436361000000000 0
 38D:\CODE\blogr\node_modules\log-symbols132704085808607487 1
-18D:\CODE\blogr\dist132707302968618718 1
+18D:\CODE\blogr\dist132708263854961317 1
 45D:\CODE\blogr\node_modules\isarray\.npmignore130942154450000000 0
 55D:\CODE\blogr\node_modules\generic-names\.idea\misc.xml121436361000000000 0
 48D:\CODE\blogr\node_modules\http-proxy-middleware132704085812458339 1
@@ -84,8 +84,14 @@
 50D:\CODE\blogr\node_modules\lodash\_baseAssignIn.js121436361000000000 0
 20D:\CODE\blogr\design132599533920000000 1
 51D:\CODE\blogr\node_modules\node-addon-api\nothing.c121436361000000000 0
+81D:\CODE\blogr\node_modules\postcss-merge-rules\node_modules\ansi-styles\readme.md131628273600000000 0
+53D:\CODE\blogr\node_modules\static-extend\node_modules132704085792169459 1
+83D:\CODE\blogr\node_modules\postcss-normalize-unicode\node_modules\postcss\README.md121436361000000000 0
+26D:\CODE\blogr\femblogr.png132707308853090000 0
+113D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\chalk\node_modules\supports-color\browser.js131663821590000000 0
+47D:\CODE\blogr\node_modules\wcwidth\combining.js130443204920000000 0
 57D:\CODE\blogr\node_modules\uri-js\dist\es5\uri.all.js.map121436361000000000 0
-23D:\CODE\blogr\README.md132705719993020000 0
+23D:\CODE\blogr\README.md132707309327010049 0
 51D:\CODE\blogr\node_modules\fast-deep-equal\index.js121436361000000000 0
 69D:\CODE\blogr\node_modules\@parcel\node-resolver-core\src\builtins.js121436361000000000 0
 76D:\CODE\blogr\node_modules\postcss-merge-longhand\node_modules\color-convert132704085817949578 1
@@ -94,7 +100,7 @@
 51D:\CODE\blogr\node_modules\object-copy\node_modules132704085774468790 1
 93D:\CODE\blogr\node_modules\postcss-normalize-positions\node_modules\supports-color\browser.js121436361000000000 0
 73D:\CODE\blogr\node_modules\@babel\helper-compilation-targets\lib\index.js121012626000000000 0
-32D:\CODE\blogr\src\sass\main.scss132704749147778400 0
+32D:\CODE\blogr\src\sass\main.scss132708250206015768 0
 51D:\CODE\blogr\node_modules\core-js\es\array\keys.js121436361000000000 0
 50D:\CODE\blogr\node_modules\shebang-command\license131190036810000000 0
 51D:\CODE\blogr\node_modules\term-size\vendor\windows132704085620225132 1
@@ -158,7 +164,7 @@
 62D:\CODE\blogr\node_modules\uri-js\dist\esnext\regexps-uri.d.ts121436361000000000 0
 41D:\CODE\blogr\node_modules\uniqs\index.js130462571300000000 0
 37D:\CODE\blogr\node_modules\safe-regex132704085812178267 1
-28D:\CODE\blogr\src\index.html132707294685581310 0
+28D:\CODE\blogr\src\index.html132708263853464134 0
 46D:\CODE\blogr\node_modules\connect\SECURITY.md121436361000000000 0
 20D:\CODE\blogr\src\js132705022843390328 1
 31D:\CODE\blogr\node_modules\levn132704085807357187 1
@@ -215,7 +221,7 @@
 57D:\CODE\blogr\node_modules\which-boxed-primitive\index.js121436361000000000 0
 58D:\CODE\blogr\node_modules\which-typed-array\.eslintignore121436361000000000 0
 76D:\CODE\blogr\node_modules\postcss-minify-params\node_modules\chalk\index.js121436361000000000 0
-28D:\CODE\blogr\src\js\main.js132707302964496748 0
+28D:\CODE\blogr\src\js\main.js132708245384852957 0
 91D:\CODE\blogr\node_modules\postcss-discard-comments\node_modules\color-convert\package.json132704085818389666 0
 96D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\postcss\lib\previous-map.js121436361000000000 0
 50D:\CODE\blogr\node_modules\icss-utils\lib\index.js121436361000000000 0
@@ -265,7 +271,7 @@
 61D:\CODE\blogr\node_modules\es-abstract\2017\ArraySetLength.js121436361000000000 0
 34D:\CODE\blogr\node_modules\request132704085805486772 1
 61D:\CODE\blogr\node_modules\cosmiconfig\dist\createExplorer.js121436361000000000 0
-50D:\CODE\blogr\src\sass\components\_responsive.scss132707302396994148 0
+50D:\CODE\blogr\src\sass\components\_responsive.scss132708262490466471 0
 98D:\CODE\blogr\node_modules\postcss-normalize-timing-functions\node_modules\color-name\package.json132704085814768850 0
 54D:\CODE\blogr\node_modules\node-forge\lib\index.all.js121436361000000000 0
 61D:\CODE\blogr\node_modules\postcss-normalize-url\package.json132704085809517681 0
@@ -519,13 +525,6 @@
 61D:\CODE\blogr\node_modules\es-abstract\2019\PromiseResolve.js121436361000000000 0
 50D:\CODE\blogr\node_modules\node-forge\CHANGELOG.md121436361000000000 0
 34D:\CODE\blogr\node_modules\esprima132704085824651067 1
-45D:\CODE\blogr\node_modules\lodash\fp\_util.js121436361000000000 0
-65D:\CODE\blogr\node_modules\w3c-xmlserializer\lib\serialization.js121436361000000000 0
-76D:\CODE\blogr\node_modules\caniuse-lite\data\features\input-file-multiple.js121436361000000000 0
-84D:\CODE\blogr\node_modules\postcss-unique-selectors\node_modules\postcss\lib\list.js121436361000000000 0
-76D:\CODE\blogr\node_modules\core-js\stable\object\get-own-property-symbols.js121436361000000000 0
-36D:\CODE\blogr\node_modules\base64-js132704085827741793 1
-77D:\CODE\blogr\node_modules\purgecss\node_modules\postcss\lib\map-generator.js121436361000000000 0
 52D:\CODE\blogr\node_modules\lodash\fp\mergeAllWith.js121436361000000000 0
 62D:\CODE\blogr\node_modules\postcss-reduce-initial\package.json132704085808987554 0
 53D:\CODE\blogr\node_modules\parse5\lib\parser\index.js121436361000000000 0
@@ -584,6 +583,13 @@
 80D:\CODE\blogr\node_modules\postcss-modules\node_modules\supports-color\readme.md121436361000000000 0
 64D:\CODE\blogr\node_modules\es-abstract\2019\SetFunctionLength.js121436361000000000 0
 44D:\CODE\blogr\node_modules\postcss\README.md121436361000000000 0
+45D:\CODE\blogr\node_modules\lodash\fp\_util.js121436361000000000 0
+65D:\CODE\blogr\node_modules\w3c-xmlserializer\lib\serialization.js121436361000000000 0
+76D:\CODE\blogr\node_modules\caniuse-lite\data\features\input-file-multiple.js121436361000000000 0
+84D:\CODE\blogr\node_modules\postcss-unique-selectors\node_modules\postcss\lib\list.js121436361000000000 0
+76D:\CODE\blogr\node_modules\core-js\stable\object\get-own-property-symbols.js121436361000000000 0
+36D:\CODE\blogr\node_modules\base64-js132704085827741793 1
+77D:\CODE\blogr\node_modules\purgecss\node_modules\postcss\lib\map-generator.js121436361000000000 0
 58D:\CODE\blogr\node_modules\postcss-modules-extract-imports132704085809937790 1
 93D:\CODE\blogr\node_modules\postcss-normalize-url\node_modules\postcss\lib\css-syntax-error.js121436361000000000 0
 88D:\CODE\blogr\node_modules\postcss-normalize-url\node_modules\postcss\lib\lazy-result.js121436361000000000 0
@@ -769,9 +775,9 @@
 38D:\CODE\blogr\node_modules\caniuse-api132704085819890009 1
 53D:\CODE\blogr\node_modules\postcss-minify-font-values132704085810067826 1
 83D:\CODE\blogr\node_modules\@parcel\transformer-json\node_modules\json5\lib\parse.js121436361000000000 0
-79D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTimeElement-impl.js121436361000000000 0
 82D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\ansi-styles\license131408182550000000 0
 76D:\CODE\blogr\node_modules\postcss-svgo\node_modules\postcss\lib\tokenize.js121436361000000000 0
+79D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTimeElement-impl.js121436361000000000 0
 42D:\CODE\blogr\node_modules\readable-stream132704085806256962 1
 84D:\CODE\blogr\node_modules\postcss-discard-empty\node_modules\postcss\lib\warning.js121436361000000000 0
 39D:\CODE\blogr\node_modules\caniuse-lite132704085827531756 1
@@ -1292,7 +1298,7 @@
 117D:\CODE\blogr\node_modules\postcss-normalize-repeat-style\node_modules\chalk\node_modules\supports-color\package.json132704085815298972 0
 48D:\CODE\blogr\node_modules\.bin\miller-rabin.ps1132704085831442610 0
 42D:\CODE\blogr\node_modules\open\index.d.ts121436361000000000 0
-48D:\CODE\blogr\dist\bg-pattern-intro.78e528d5.svg132707302967559817 0
+48D:\CODE\blogr\dist\bg-pattern-intro.78e528d5.svg132708263854863852 0
 64D:\CODE\blogr\node_modules\csso\lib\restructure\1-mergeAtrule.js121436361000000000 0
 62D:\CODE\blogr\node_modules\core-js\internals\array-includes.js121436361000000000 0
 81D:\CODE\blogr\node_modules\postcss-normalize-url\node_modules\chalk\index.js.flow121436361000000000 0
@@ -2716,8 +2722,6 @@
 38D:\CODE\blogr\node_modules\stream-http132704085804366529 1
 70D:\CODE\blogr\node_modules\uncss\node_modules\supports-color\readme.md121436361000000000 0
 38D:\CODE\blogr\node_modules\symbol-tree132704085807937341 1
-41D:\CODE\blogr\node_modules\string_decoder132704085808837532 1
-74D:\CODE\blogr\node_modules\postcss-normalize-unicode\node_modules\has-flag132704085815038925 1
 92D:\CODE\blogr\node_modules\postcss-discard-overridden\node_modules\color-name\.eslintrc.json131174093250000000 0
 49D:\CODE\blogr\node_modules\extend-shallow\LICENSE131580298130000000 0
 101D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\color-convert\conversions.js121436361000000000 0
@@ -2725,6 +2729,8 @@
 51D:\CODE\blogr\node_modules\purgecss\lib\purgecss.js121436361000000000 0
 41D:\CODE\blogr\node_modules\supports-color132704085808597487 1
 84D:\CODE\blogr\node_modules\icss-utils\node_modules\postcss\docs\guidelines\runner.md121436361000000000 0
+41D:\CODE\blogr\node_modules\string_decoder132704085808837532 1
+74D:\CODE\blogr\node_modules\postcss-normalize-unicode\node_modules\has-flag132704085815038925 1
 45D:\CODE\blogr\node_modules\nwsapi\src\modules132704085670616903 1
 61D:\CODE\blogr\node_modules\core-js\features\symbol\matcher.js121436361000000000 0
 71D:\CODE\blogr\node_modules\core-js\internals\document-create-element.js121436361000000000 0
@@ -3253,11 +3259,6 @@
 39D:\CODE\blogr\node_modules\psl\index.js121436361000000000 0
 80D:\CODE\blogr\node_modules\postcss-convert-values\node_modules\has-flag\index.js131593941750000000 0
 55D:\CODE\blogr\node_modules\webidl-conversions\README.md131320990780000000 0
-81D:\CODE\blogr\node_modules\postcss-merge-rules\node_modules\ansi-styles\readme.md131628273600000000 0
-53D:\CODE\blogr\node_modules\static-extend\node_modules132704085792169459 1
-83D:\CODE\blogr\node_modules\postcss-normalize-unicode\node_modules\postcss\README.md121436361000000000 0
-113D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\chalk\node_modules\supports-color\browser.js131663821590000000 0
-47D:\CODE\blogr\node_modules\wcwidth\combining.js130443204920000000 0
 39D:\CODE\blogr\node_modules\wcwidth\docs132704085601565309 1
 89D:\CODE\blogr\node_modules\postcss-reduce-initial\node_modules\postcss\lib\lazy-result.js121436361000000000 0
 45D:\CODE\blogr\node_modules\punycode\README.md131714306640000000 0
@@ -7188,7 +7189,7 @@
 71D:\CODE\blogr\node_modules\postcss-reduce-initial\data\fromInitial.json121436361000000000 0
 88D:\CODE\blogr\node_modules\postcss-minify-gradients\node_modules\supports-color\index.js121436361000000000 0
 58D:\CODE\blogr\node_modules\es-abstract\2015\ToPrimitive.js121436361000000000 0
-45D:\CODE\blogr\dist\favicon-32x32.5d498718.png132707283931233695 0
+45D:\CODE\blogr\dist\favicon-32x32.5d498718.png132708250208840157 0
 61D:\CODE\blogr\node_modules\postcss-ordered-values\LICENSE-MIT121436361000000000 0
 62D:\CODE\blogr\node_modules\postcss-ordered-values\node_modules132704085790878896 1
 62D:\CODE\blogr\node_modules\postcss-ordered-values\package.json132704085809407668 0
@@ -7383,14 +7384,6 @@
 65D:\CODE\blogr\node_modules\http-proxy-middleware\dist\logger.d.ts121436361000000000 0
 58D:\CODE\blogr\node_modules\caniuse-lite\data\regions\MG.js121436361000000000 0
 102D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\postcss\docs\guidelines\runner.md121436361000000000 0
-61D:\CODE\blogr\node_modules\lodash\fp\symmetricDifferenceBy.js121436361000000000 0
-62D:\CODE\blogr\node_modules\css-selector-tokenizer\package.json132704085824220992 0
-45D:\CODE\blogr\node_modules\es-abstract\es7.js121436361000000000 0
-66D:\CODE\blogr\node_modules\caniuse-lite\data\features\classlist.js121436361000000000 0
-63D:\CODE\blogr\node_modules\@parcel\package-manager\package.json132704085803726366 0
-71D:\CODE\blogr\node_modules\@parcel\utils\src\replaceBundleReferences.js121436361000000000 0
-73D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\color-name132704085816599271 1
-62D:\CODE\blogr\node_modules\highlight.js\styles\github-gist.css121436361000000000 0
 86D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\has-flag\index.js131593941750000000 0
 87D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\has-flag\readme.md131593942790000000 0
 88D:\CODE\blogr\node_modules\postcss-normalize-whitespace\node_modules\color-name\index.js131446304070000000 0
@@ -7953,9 +7946,9 @@
 89D:\CODE\blogr\node_modules\postcss-normalize-repeat-style\node_modules\chalk\templates.js121436361000000000 0
 58D:\CODE\blogr\node_modules\highlight.js\styles\rainbow.css121436361000000000 0
 54D:\CODE\blogr\node_modules\lodash\_composeArgsRight.js121436361000000000 0
+53D:\CODE\blogr\node_modules\ajv\lib\compile\resolve.js121436361000000000 0
 80D:\CODE\blogr\node_modules\postcss-modules-scope\node_modules\color-name\test.js131446304190000000 0
 61D:\CODE\blogr\node_modules\iconv-lite\encodings\dbcs-codec.js131794416590000000 0
-53D:\CODE\blogr\node_modules\ajv\lib\compile\resolve.js121436361000000000 0
 82D:\CODE\blogr\node_modules\postcss-normalize-repeat-style\node_modules\chalk\types132704085662027776 1
 64D:\CODE\blogr\node_modules\caniuse-lite\data\features\details.js121436361000000000 0
 93D:\CODE\blogr\node_modules\postcss-normalize-repeat-style\node_modules\chalk\types\index.d.ts121436361000000000 0
@@ -8087,7 +8080,7 @@
 69D:\CODE\blogr\node_modules\@babel\traverse\node_modules\debug\LICENSE121436361000000000 0
 80D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\postcss\README.md121436361000000000 0
 93D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\postcss-value-parser132704085816019143 1
-58D:\CODE\blogr\dist\illustration-editor-mobile.3d2eb600.svg132707302967559817 0
+58D:\CODE\blogr\dist\illustration-editor-mobile.3d2eb600.svg132708263854863852 0
 87D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\supports-color132704085816029136 1
 98D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\supports-color\browser.js121436361000000000 0
 95D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\supports-color\license121436361000000000 0
@@ -8255,6 +8248,14 @@
 51D:\CODE\blogr\node_modules\cosmiconfig\CHANGELOG.md121436361000000000 0
 66D:\CODE\blogr\node_modules\postcss-calc\node_modules\color-convert132704085818999804 1
 74D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\ansi-styles132704085816579286 1
+61D:\CODE\blogr\node_modules\lodash\fp\symmetricDifferenceBy.js121436361000000000 0
+62D:\CODE\blogr\node_modules\css-selector-tokenizer\package.json132704085824220992 0
+45D:\CODE\blogr\node_modules\es-abstract\es7.js121436361000000000 0
+66D:\CODE\blogr\node_modules\caniuse-lite\data\features\classlist.js121436361000000000 0
+63D:\CODE\blogr\node_modules\@parcel\package-manager\package.json132704085803726366 0
+71D:\CODE\blogr\node_modules\@parcel\utils\src\replaceBundleReferences.js121436361000000000 0
+73D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\color-name132704085816599271 1
+62D:\CODE\blogr\node_modules\highlight.js\styles\github-gist.css121436361000000000 0
 71D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\has-flag132704085816589470 1
 53D:\CODE\blogr\node_modules\is-extendable\package.json132704085822260551 0
 63D:\CODE\blogr\node_modules\caniuse-lite\data\features\webgl2.js121436361000000000 0
@@ -12280,7 +12281,7 @@
 78D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLLinkElement.js121436361000000000 0
 79D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLMediaElement.js121436361000000000 0
 78D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLMetaElement.js121436361000000000 0
-50D:\CODE\blogr\dist\bg-pattern-circles.fb85a2c1.svg132707302967619806 0
+50D:\CODE\blogr\dist\bg-pattern-circles.fb85a2c1.svg132708263854628104 0
 80D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLObjectElement.js121436361000000000 0
 79D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLOListElement.js121436361000000000 0
 43D:\CODE\blogr\node_modules\ignore\legacy.js121436361000000000 0
@@ -14718,7 +14719,7 @@
 57D:\CODE\blogr\node_modules\es-abstract\2015\SplitMatch.js121436361000000000 0
 69D:\CODE\blogr\node_modules\es-abstract\2015\StringGetIndexProperty.js121436361000000000 0
 63D:\CODE\blogr\node_modules\es-abstract\2015\thisBooleanValue.js121436361000000000 0
-40D:\CODE\blogr\dist\index.4ee429df.js.map132707302968608746 0
+40D:\CODE\blogr\dist\index.4ee429df.js.map132708263854941303 0
 62D:\CODE\blogr\node_modules\es-abstract\2015\thisNumberValue.js121436361000000000 0
 62D:\CODE\blogr\node_modules\es-abstract\2015\thisStringValue.js121436361000000000 0
 60D:\CODE\blogr\node_modules\es-abstract\2015\thisTimeValue.js121436361000000000 0
@@ -17682,7 +17683,7 @@
 54D:\CODE\blogr\node_modules\@parcel\transformer-postcss132704085804016434 1
 55D:\CODE\blogr\node_modules\@parcel\transformer-posthtml132704085803926442 1
 50D:\CODE\blogr\node_modules\@parcel\transformer-raw132704085802426093 1
-42D:\CODE\blogr\dist\icon-close.04f39472.svg132707302967630371 0
+42D:\CODE\blogr\dist\icon-close.04f39472.svg132708263854628104 0
 51D:\CODE\blogr\node_modules\@parcel\transformer-sass132704086405462764 1
 40D:\CODE\blogr\node_modules\@parcel\utils132704085804186477 1
 42D:\CODE\blogr\node_modules\@parcel\watcher132704085820070085 1
@@ -19135,16 +19136,16 @@
 51D:\CODE\blogr\images\illustration-editor-mobile.svg132599533920000000 0
 52D:\CODE\blogr\images\illustration-laptop-desktop.svg132599533920000000 0
 29D:\CODE\blogr\images\logo.svg132599533920000000 0
-47D:\CODE\blogr\dist\icon-arrow-dark.76892e05.svg132707302967599806 0
-48D:\CODE\blogr\dist\icon-arrow-light.453bd9ef.svg132707302967619806 0
-46D:\CODE\blogr\dist\icon-hamburger.9672dcf1.svg132707302967559817 0
-58D:\CODE\blogr\dist\illustration-laptop-mobile.d1cae16f.svg132707302967559817 0
-51D:\CODE\blogr\dist\illustration-phones.5979feda.svg132707302967599806 0
+47D:\CODE\blogr\dist\icon-arrow-dark.76892e05.svg132708263854608089 0
+48D:\CODE\blogr\dist\icon-arrow-light.453bd9ef.svg132708263854628104 0
+46D:\CODE\blogr\dist\icon-hamburger.9672dcf1.svg132708263854863852 0
+58D:\CODE\blogr\dist\illustration-laptop-mobile.d1cae16f.svg132708263854863852 0
+51D:\CODE\blogr\dist\illustration-phones.5979feda.svg132708263854618107 0
 36D:\CODE\blogr\dist\index.01a1c8c0.js132705022623958525 0
-37D:\CODE\blogr\dist\index.fe61a6d4.css132707302968495092 0
-41D:\CODE\blogr\dist\index.fe61a6d4.css.map132707302968495092 0
-29D:\CODE\blogr\dist\index.html132707302968495092 0
-36D:\CODE\blogr\dist\logo.7071b2c9.svg132707302967599806 0
+37D:\CODE\blogr\dist\index.fe61a6d4.css132708263854863852 0
+41D:\CODE\blogr\dist\index.fe61a6d4.css.map132708263854931318 0
+29D:\CODE\blogr\dist\index.html132708263854954261 0
+36D:\CODE\blogr\dist\logo.7071b2c9.svg132708263854608089 0
 38D:\CODE\blogr\design\active-states.jpg132599533920000000 0
 39D:\CODE\blogr\design\desktop-design.jpg132599533920000000 0
 38D:\CODE\blogr\design\mobile-design.jpg132599533920000000 0

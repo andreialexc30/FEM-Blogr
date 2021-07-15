@@ -538,9 +538,15 @@ a:focus {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    margin: 5em 0;
   }
-  .design_container .design_img {
-    width: 50vw;
+  .design_container .design_img-container {
+    position: relative;
+    width: 100%;
+  }
+  .design_container .design_img-container .design_img {
+    position: absolute;
+    width: 45vw;
   }
   .design_container .design_information {
     text-align: left;
