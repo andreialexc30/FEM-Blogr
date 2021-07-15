@@ -314,9 +314,16 @@ a:focus {
     max-width: 400px;
   }
   .design_information {
-    padding: 0 3.6em;
+    padding: 0 6.75em;
     text-align: center;
     letter-spacing: 1px;
+    line-height: 1.75em;
+  }
+  .design_information-container {
+    width: 100%;
+  }
+  .design_information:not(:last-child) {
+    margin-bottom: 5em;
   }
 }
 
@@ -331,6 +338,9 @@ a:focus {
     position: absolute;
     z-index: 2;
     top: -27vh;
+  }
+  .infrastructure_container {
+    width: 100%;
   }
   .infrastructure_stateOf {
     background: linear-gradient(to bottom, #3f4164, #2c2d3f);
@@ -539,7 +549,11 @@ a:focus {
     align-items: center;
     flex-direction: row-reverse;
   }
-  .design_container .design_img {
+  .design_container .design_img-container {
+    position: relative;
+    width: 100%;
+  }
+  .design_container .design_img-container .design_img {
     width: 50vw;
   }
   .design_container .design_information {
@@ -597,7 +611,7 @@ a:focus {
 @media (min-width: 1200px) {
   .stateOf_expanded-img,
 .design_img {
-    max-width: 900px !important;
+    max-width: 750px !important;
   }
 }
 
@@ -639,6 +653,7 @@ body {
   margin: 0;
   padding: 0;
   background: white;
+  overflow-x: hidden;
 }
 
 ul {
