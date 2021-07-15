@@ -5,6 +5,7 @@ const dropdownCn = document.getElementById('dropdownContact')
 const dropdownProduct = document.getElementById('dropdownAnchorProduct')
 const dropdownCompany = document.getElementById('dropdownAnchorCompany')
 const dropdownContact = document.getElementById('dropdownAnchorConnect')
+const desktopAnchors = document.getElementsByClassName('list--item_anchor')
 
 // Elements from mobile
 const burgerIcon = document.getElementById('burger_icon')
@@ -17,7 +18,7 @@ const mobileAnchorCn= document.getElementById('mobileContactAnchor')
 const mobileDropdownP = document.getElementById('mobileDropdownProduct')
 const mobileDropdownCm = document.getElementById('mobileDropdownCompany')
 const mobileDropdownCn = document.getElementById('mobileDropdownContact')
-
+const mobileAnchors = document.getElementsByClassName('list-item_anchor')
 
 // !Mobile related!
 // Mobile burger menu switch
@@ -28,7 +29,6 @@ mobileBtn.addEventListener('click', () => {
 })
 
 // dropdown function
-const mobileState = 'mobile_dropdownActive'
 function toggleDropdown(dropdownA, dropdownB, dropdownState) {
     if (dropdownA.classList.contains(dropdownState) || dropdownB.classList.contains(dropdownState)) {
         dropdownA.classList.remove(dropdownState)
@@ -38,45 +38,46 @@ function toggleDropdown(dropdownA, dropdownB, dropdownState) {
 }
 
 // Mobile toggle dropdowns
-mobileAnchorP.addEventListener('click', () => {
-    toggleDropdown(mobileDropdownCm, mobileDropdownCn, mobileState)
+const mobileState = 'mobile_dropdownActive'
 
-    mobileDropdownP.classList.toggle(mobileState)
-})
+for (let i = 0; i < mobileAnchors.length; i++) {
+    let selectedAnchor = mobileAnchors[i]
 
-mobileAnchorCm.addEventListener('click', () => {
-    toggleDropdown(mobileDropdownP, mobileDropdownCn, mobileState)
-
-    mobileDropdownCm.classList.toggle(mobileState)
-})
-
-mobileAnchorCn.addEventListener('click', () => {
-    toggleDropdown(mobileDropdownCm, mobileDropdownP, mobileState)
-
-    mobileDropdownCn.classList.toggle(mobileState)
-})
+    selectedAnchor.addEventListener('click', () => {
+        if (selectedAnchor === mobileAnchorP) {
+            toggleDropdown(mobileDropdownCm, mobileDropdownCn, mobileState)
+            mobileDropdownP.classList.toggle(mobileState)
+        } else if (selectedAnchor === mobileAnchorCm) {
+            toggleDropdown(mobileDropdownP, mobileDropdownCn, mobileState)
+            mobileDropdownCm.classList.toggle(mobileState)
+        } else {
+            toggleDropdown(mobileDropdownCm, mobileDropdownP, mobileState)
+            mobileDropdownCn.classList.toggle(mobileState)
+        }
+    })
+}
 
 // !Desktop related!
 // Toggle dropdowns
 const desktopState = 'dropdownActive'
 
-dropdownProduct.addEventListener('click', () => {
-    toggleDropdown(dropdownCm, dropdownCn, desktopState)
+for (let i = 0; i < desktopAnchors.length; i++) {
+    let selectedAnchor = desktopAnchors[i]
 
-    dropdownP.classList.add(desktopState)
-})
-
-dropdownCompany.addEventListener('click', () => {
-    toggleDropdown(dropdownP, dropdownCn, desktopState)
-
-    dropdownCm.classList.add(desktopState)
-})
-
-dropdownContact.addEventListener('click', () => {
-    toggleDropdown(dropdownCm, dropdownP, desktopState)
-
-    dropdownCn.classList.add(desktopState)
-})
+    selectedAnchor.addEventListener('click', () => {
+        if (selectedAnchor === dropdownProduct) {
+            toggleDropdown(dropdownCm, dropdownCn, desktopState)
+            dropdownP.classList.toggle(desktopState)
+        } else if (selectedAnchor === dropdownCompany) {
+            toggleDropdown(dropdownP, dropdownCn, desktopState)
+            dropdownCm.classList.toggle(desktopState)
+        } else {
+            toggleDropdown(dropdownCm, dropdownP, desktopState)
+            dropdownCn.classList.toggle(desktopState)
+        }
+    })
+    
+}
 
 // Close dropdown when clicking outside than on the anchor
 const mobileAnchor = '.list-item_anchor'
