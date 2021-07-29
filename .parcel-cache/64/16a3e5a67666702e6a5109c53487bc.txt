@@ -23,7 +23,7 @@
 54D:\CODE\blogr\node_modules\postcss-normalize-positions132704085809807747 1
 31D:\CODE\blogr\node_modules\sass132704083902817386 1
 26D:\CODE\blogr\package.json132704104299989393 0
-36D:\CODE\blogr\dist\index.4ee429df.js132708263854863852 0
+36D:\CODE\blogr\dist\index.4ee429df.js132720554841995681 0
 46D:\CODE\blogr\node_modules\css-tree\lib\common132704085680720327 1
 66D:\CODE\blogr\node_modules\core-js\features\symbol\to-primitive.js121436361000000000 0
 78D:\CODE\blogr\node_modules\postcss-unique-selectors\node_modules\chalk\license121436361000000000 0
@@ -56,7 +56,7 @@
 67D:\CODE\blogr\node_modules\caniuse-lite\data\features\object-fit.js121436361000000000 0
 75D:\CODE\blogr\node_modules\postcss-modules\node_modules\postcss\lib\root.js121436361000000000 0
 38D:\CODE\blogr\node_modules\log-symbols132704085808607487 1
-18D:\CODE\blogr\dist132708263854961317 1
+18D:\CODE\blogr\dist132720554842545816 1
 45D:\CODE\blogr\node_modules\isarray\.npmignore130942154450000000 0
 55D:\CODE\blogr\node_modules\generic-names\.idea\misc.xml121436361000000000 0
 48D:\CODE\blogr\node_modules\http-proxy-middleware132704085812458339 1
@@ -164,7 +164,7 @@
 62D:\CODE\blogr\node_modules\uri-js\dist\esnext\regexps-uri.d.ts121436361000000000 0
 41D:\CODE\blogr\node_modules\uniqs\index.js130462571300000000 0
 37D:\CODE\blogr\node_modules\safe-regex132704085812178267 1
-28D:\CODE\blogr\src\index.html132708263853464134 0
+28D:\CODE\blogr\src\index.html132720554595550656 0
 46D:\CODE\blogr\node_modules\connect\SECURITY.md121436361000000000 0
 20D:\CODE\blogr\src\js132705022843390328 1
 31D:\CODE\blogr\node_modules\levn132704085807357187 1
@@ -1298,7 +1298,7 @@
 117D:\CODE\blogr\node_modules\postcss-normalize-repeat-style\node_modules\chalk\node_modules\supports-color\package.json132704085815298972 0
 48D:\CODE\blogr\node_modules\.bin\miller-rabin.ps1132704085831442610 0
 42D:\CODE\blogr\node_modules\open\index.d.ts121436361000000000 0
-48D:\CODE\blogr\dist\bg-pattern-intro.78e528d5.svg132708263854863852 0
+48D:\CODE\blogr\dist\bg-pattern-intro.78e528d5.svg132720554841458381 0
 64D:\CODE\blogr\node_modules\csso\lib\restructure\1-mergeAtrule.js121436361000000000 0
 62D:\CODE\blogr\node_modules\core-js\internals\array-includes.js121436361000000000 0
 81D:\CODE\blogr\node_modules\postcss-normalize-url\node_modules\chalk\index.js.flow121436361000000000 0
@@ -7189,7 +7189,7 @@
 71D:\CODE\blogr\node_modules\postcss-reduce-initial\data\fromInitial.json121436361000000000 0
 88D:\CODE\blogr\node_modules\postcss-minify-gradients\node_modules\supports-color\index.js121436361000000000 0
 58D:\CODE\blogr\node_modules\es-abstract\2015\ToPrimitive.js121436361000000000 0
-45D:\CODE\blogr\dist\favicon-32x32.5d498718.png132708250208840157 0
+45D:\CODE\blogr\dist\favicon-32x32.5d498718.png132720554841458381 0
 61D:\CODE\blogr\node_modules\postcss-ordered-values\LICENSE-MIT121436361000000000 0
 62D:\CODE\blogr\node_modules\postcss-ordered-values\node_modules132704085790878896 1
 62D:\CODE\blogr\node_modules\postcss-ordered-values\package.json132704085809407668 0
@@ -8080,7 +8080,7 @@
 69D:\CODE\blogr\node_modules\@babel\traverse\node_modules\debug\LICENSE121436361000000000 0
 80D:\CODE\blogr\node_modules\postcss-modules-values\node_modules\postcss\README.md121436361000000000 0
 93D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\postcss-value-parser132704085816019143 1
-58D:\CODE\blogr\dist\illustration-editor-mobile.3d2eb600.svg132708263854863852 0
+58D:\CODE\blogr\dist\illustration-editor-mobile.3d2eb600.svg132720554841458381 0
 87D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\supports-color132704085816029136 1
 98D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\supports-color\browser.js121436361000000000 0
 95D:\CODE\blogr\node_modules\postcss-normalize-display-values\node_modules\supports-color\license121436361000000000 0
@@ -12281,7 +12281,7 @@
 78D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLLinkElement.js121436361000000000 0
 79D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLMediaElement.js121436361000000000 0
 78D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLMetaElement.js121436361000000000 0
-50D:\CODE\blogr\dist\bg-pattern-circles.fb85a2c1.svg132708263854628104 0
+50D:\CODE\blogr\dist\bg-pattern-circles.fb85a2c1.svg132720554841795639 0
 80D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLObjectElement.js121436361000000000 0
 79D:\CODE\blogr\node_modules\jsdom\lib\jsdom\living\generated\HTMLOListElement.js121436361000000000 0
 43D:\CODE\blogr\node_modules\ignore\legacy.js121436361000000000 0
@@ -14719,7 +14719,7 @@
 57D:\CODE\blogr\node_modules\es-abstract\2015\SplitMatch.js121436361000000000 0
 69D:\CODE\blogr\node_modules\es-abstract\2015\StringGetIndexProperty.js121436361000000000 0
 63D:\CODE\blogr\node_modules\es-abstract\2015\thisBooleanValue.js121436361000000000 0
-40D:\CODE\blogr\dist\index.4ee429df.js.map132708263854941303 0
+40D:\CODE\blogr\dist\index.4ee429df.js.map132720554842535814 0
 62D:\CODE\blogr\node_modules\es-abstract\2015\thisNumberValue.js121436361000000000 0
 62D:\CODE\blogr\node_modules\es-abstract\2015\thisStringValue.js121436361000000000 0
 60D:\CODE\blogr\node_modules\es-abstract\2015\thisTimeValue.js121436361000000000 0
@@ -17683,7 +17683,7 @@
 54D:\CODE\blogr\node_modules\@parcel\transformer-postcss132704085804016434 1
 55D:\CODE\blogr\node_modules\@parcel\transformer-posthtml132704085803926442 1
 50D:\CODE\blogr\node_modules\@parcel\transformer-raw132704085802426093 1
-42D:\CODE\blogr\dist\icon-close.04f39472.svg132708263854628104 0
+42D:\CODE\blogr\dist\icon-close.04f39472.svg132720554841685627 0
 51D:\CODE\blogr\node_modules\@parcel\transformer-sass132704086405462764 1
 40D:\CODE\blogr\node_modules\@parcel\utils132704085804186477 1
 42D:\CODE\blogr\node_modules\@parcel\watcher132704085820070085 1
@@ -19136,16 +19136,16 @@
 51D:\CODE\blogr\images\illustration-editor-mobile.svg132599533920000000 0
 52D:\CODE\blogr\images\illustration-laptop-desktop.svg132599533920000000 0
 29D:\CODE\blogr\images\logo.svg132599533920000000 0
-47D:\CODE\blogr\dist\icon-arrow-dark.76892e05.svg132708263854608089 0
-48D:\CODE\blogr\dist\icon-arrow-light.453bd9ef.svg132708263854628104 0
-46D:\CODE\blogr\dist\icon-hamburger.9672dcf1.svg132708263854863852 0
-58D:\CODE\blogr\dist\illustration-laptop-mobile.d1cae16f.svg132708263854863852 0
-51D:\CODE\blogr\dist\illustration-phones.5979feda.svg132708263854618107 0
+47D:\CODE\blogr\dist\icon-arrow-dark.76892e05.svg132720554841458381 0
+48D:\CODE\blogr\dist\icon-arrow-light.453bd9ef.svg132720554841458381 0
+46D:\CODE\blogr\dist\icon-hamburger.9672dcf1.svg132720554841458381 0
+58D:\CODE\blogr\dist\illustration-laptop-mobile.d1cae16f.svg132720554841098280 0
+51D:\CODE\blogr\dist\illustration-phones.5979feda.svg132720554841458381 0
 36D:\CODE\blogr\dist\index.01a1c8c0.js132705022623958525 0
-37D:\CODE\blogr\dist\index.fe61a6d4.css132708263854863852 0
-41D:\CODE\blogr\dist\index.fe61a6d4.css.map132708263854931318 0
-29D:\CODE\blogr\dist\index.html132708263854954261 0
-36D:\CODE\blogr\dist\logo.7071b2c9.svg132708263854608089 0
+37D:\CODE\blogr\dist\index.fe61a6d4.css132720554841915674 0
+41D:\CODE\blogr\dist\index.fe61a6d4.css.map132720554842065723 0
+29D:\CODE\blogr\dist\index.html132720554841695623 0
+36D:\CODE\blogr\dist\logo.7071b2c9.svg132720554841685627 0
 38D:\CODE\blogr\design\active-states.jpg132599533920000000 0
 39D:\CODE\blogr\design\desktop-design.jpg132599533920000000 0
 38D:\CODE\blogr\design\mobile-design.jpg132599533920000000 0
